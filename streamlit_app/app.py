@@ -29,25 +29,44 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Tabs font */
 .stTabs [data-baseweb="tab"] {
     font-size: 18px !important;
     font-weight: 700;
 }
 
+/* KPI Cards */
 .metric-card {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.95);
     padding: 25px;
     border-radius: 20px;
     text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
-.metric-label { font-size: 16px; }
-.metric-value { font-size: 32px; font-weight: 800; }
+/*FIX: Force text color for BOTH light & dark mode */
+.metric-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #475569 !important;   /* always visible */
+}
 
+.metric-value {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0f172a !important;   /* always visible */
+}
+
+/* Accent Borders */
 .total-accent { border-bottom: 5px solid #6366F1; }
 .pos-accent { border-bottom: 5px solid #10B981; }
 .neg-accent { border-bottom: 5px solid #EF4444; }
 .neu-accent { border-bottom: 5px solid #94A3B8; }
+
+/* Optional: Fix background in dark mode */
+[data-theme="dark"] .metric-card {
+    background: rgba(255, 255, 255, 0.9);
+}
 </style>
 """, unsafe_allow_html=True)
 
