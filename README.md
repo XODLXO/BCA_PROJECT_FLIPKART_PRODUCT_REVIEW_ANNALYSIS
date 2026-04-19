@@ -1,8 +1,4 @@
-Here’s a clean, **interactive and professional description** you can directly use for your GitHub README / report / viva:
-
----
-
-## 📊 Customer Feedback Analysis Dashboard (Sentify AI)
+## 📊 Customer Feedback Analysis Dashboard (Sentify Analysis)
 
 This project is an AI-powered web application built using **Streamlit** that analyzes customer reviews and transforms raw textual feedback into meaningful business insights. The main goal is to help businesses understand customer sentiment, identify issues, and make data-driven decisions in real time.
 
@@ -147,10 +143,6 @@ This makes the tool **actionable**, not just analytical.
 ## 🎯 Conclusion
 
 This project combines **machine learning, data visualization, and user-centric design** to create a powerful tool for customer feedback analysis. It bridges the gap between raw data and actionable insights, making it highly useful for businesses, analysts, and decision-makers.
-
----
-
-If you want, I can also give you:
 
 * 🔥 A **perfect README.md formatted version (with badges & icons)**
 * 🎤 A **viva explanation script (what to say step-by-step)**
