@@ -1,2 +1,159 @@
-# BCA_PROJECT_FLIPKART_PRODUCT_REVIEW_ANNALYSIS
-Customer Feedback Analysis Dashboard built using Python and Streamlit.  This project uses machine learning and NLP techniques to analyze product reviews, classify sentiment (positive, negative, neutral), and generate business insights through interactive visualizations such as charts, word clouds, and product-level analysis.
+Here’s a clean, **interactive and professional description** you can directly use for your GitHub README / report / viva:
+
+---
+
+## 📊 Customer Feedback Analysis Dashboard (Sentify AI)
+
+This project is an AI-powered web application built using **Streamlit** that analyzes customer reviews and transforms raw textual feedback into meaningful business insights. The main goal is to help businesses understand customer sentiment, identify issues, and make data-driven decisions in real time.
+
+---
+
+## 🤖 Model & Approach
+
+The core of this system is a machine learning pipeline based on:
+
+* **Natural Language Processing** (NLP) for understanding textual reviews
+* **TF-IDF Vectorization** to convert text into numerical features
+* A trained classification model (sentiment analysis) that predicts whether a review is:
+
+  * **Positive**
+  * **Negative**
+  * **Neutral**
+
+### 🔗 Model Files (Loaded from Cloud)
+
+To ensure easy deployment and no local dependency issues, the trained model and vectorizer are hosted online and loaded dynamically:
+
+* **Final Model (.pkl):**
+  [https://drive.google.com/file/d/10bGGKcgByyeDaI3_g_bCWRroyv5DX9UJ](https://drive.google.com/file/d/10bGGKcgByyeDaI3_g_bCWRroyv5DX9UJ)
+
+* **TF-IDF Vectorizer (.pkl):**
+  [https://drive.google.com/file/d/1V6vBxI0nSoJt2sn-4FA2ML-ueOIwFteO](https://drive.google.com/file/d/1V6vBxI0nSoJt2sn-4FA2ML-ueOIwFteO)
+
+This approach allows the app to run directly on platforms like Streamlit Cloud without requiring local model files.
+
+---
+
+## ⚙️ How It Works
+
+1. The user uploads a dataset (CSV) containing product reviews
+2. The system automatically:
+
+   * Detects relevant columns (review, rating, product, etc.)
+   * Cleans and preprocesses the data
+3. Reviews are transformed using TF-IDF
+4. The trained model predicts sentiment for each review
+5. Results are displayed through interactive dashboards and graphs
+
+---
+
+## 🧭 Dashboard Navigation & Features
+
+The application is designed with a **step-by-step, user-friendly interface** so even non-technical users can easily interact with it.
+
+---
+
+### 🟢 Step 1: Data Input
+
+Users can:
+
+* Use built-in sample data
+* OR upload their own CSV file
+
+The app intelligently adapts to different column names and formats.
+
+---
+
+### 🟡 Step 2: Product Selection
+
+If multiple products exist, the user selects one product from a dropdown.
+This ensures **focused and accurate analysis** instead of mixing all products together.
+
+---
+
+### 🔵 Step 3: KPI Overview
+
+Key performance indicators are displayed:
+
+* Total reviews
+* Positive sentiment %
+* Negative sentiment %
+* Neutral sentiment %
+
+This gives a quick understanding of customer perception.
+
+---
+
+### 📊 Overview Tab
+
+Provides a high-level summary:
+
+* Bar chart of sentiment distribution
+* Pie chart showing sentiment share
+* Additional distribution insights
+
+---
+
+### 💡 Insights Tab
+
+This is the **analytical core** of the application:
+
+* Sentiment vs Rating analysis
+* Review length vs sentiment
+* Price vs sentiment (auto-detected)
+* Rating distribution
+* Sentiment trends
+
+The system automatically handles:
+
+* Numeric or text-based price values
+* Different column naming formats
+
+---
+
+### 🔤 Text Analysis Tab
+
+Focuses on understanding the actual feedback content:
+
+* Word Cloud visualization
+* Top frequently used keywords
+* Helps identify common customer opinions
+
+---
+
+### 🚀 Next Steps (Business Recommendations)
+
+Instead of static outputs, the app provides **dynamic AI-driven suggestions**, such as:
+
+* Improve product quality (if negative sentiment is high)
+* Launch marketing campaigns (if positive sentiment is high)
+* Investigate pricing or quality issues based on keywords
+
+This makes the tool **actionable**, not just analytical.
+
+---
+
+## 🌟 Key Highlights
+
+✔ Fully dynamic – works with any dataset format
+✔ No manual column setup required
+✔ Cloud-based model loading
+✔ Real-time sentiment prediction
+✔ Business-focused insights
+✔ Beginner-friendly interface
+
+---
+
+## 🎯 Conclusion
+
+This project combines **machine learning, data visualization, and user-centric design** to create a powerful tool for customer feedback analysis. It bridges the gap between raw data and actionable insights, making it highly useful for businesses, analysts, and decision-makers.
+
+---
+
+If you want, I can also give you:
+
+* 🔥 A **perfect README.md formatted version (with badges & icons)**
+* 🎤 A **viva explanation script (what to say step-by-step)**
+* 📄 A **report version for submission**
+
+Just tell me 👍
