@@ -26,6 +26,9 @@ To ensure easy deployment and no local dependency issues, the trained model and 
 * **TF-IDF Vectorizer (.pkl):**
   [https://drive.google.com/file/d/1V6vBxI0nSoJt2sn-4FA2ML-ueOIwFteO](https://drive.google.com/file/d/1V6vBxI0nSoJt2sn-4FA2ML-ueOIwFteO)
 
+* **Dataset:**
+  [The dataset used to train the model is collected from the kaggle website](https://www.kaggle.com/datasets/niraliivaghani/flipkart-product-customer-reviews-dataset?resource=download)
+
 This approach allows the app to run directly on platforms like Streamlit Cloud without requiring local model files.
 
 ---
@@ -43,10 +46,19 @@ This approach allows the app to run directly on platforms like Streamlit Cloud w
 
 ---
 
+## Dashboard Link
+* **Sample Dataset:**
+  [The sample dataset to test the dashboard](https://drive.google.com/file/d/153y7xAdyY6zTx_JS-ZG05bidZul2MOPV/view?usp=sharing)
+
+* **Streamlit Dashboard:**
+  [Dashboard streamlit link](https://bcaprojectfeedbackannalysis-crow9j4bo2luvnduzfyjjn.streamlit.app/)
+
+* **QR CODE for Dashboard:**
+  <img width="1257" height="1600" alt="Dashboard qr code" src="https://github.com/user-attachments/assets/b7f97fc2-9461-4682-aebd-7e2cd3160e73" />
+
 ## Dashboard Navigation & Features
 
 The application is designed with a **step-by-step, user-friendly interface** so even non-technical users can easily interact with it.
-
 ---
 
 ### Step 1: Data Input
@@ -128,6 +140,16 @@ Instead of static outputs, the app provides **dynamic AI-driven suggestions**, s
 This makes the tool **actionable**, not just analytical.
 
 ---
+
+## Dashboard Screenshots
+<img width="931" height="549" alt="image" src="https://github.com/user-attachments/assets/072fffa4-5964-4cef-aba9-96b6b8d113a2" />
+<img width="931" height="546" alt="image" src="https://github.com/user-attachments/assets/4c272603-dadf-4b97-8996-c51dcd0e7fc5" />
+<img width="931" height="559" alt="image" src="https://github.com/user-attachments/assets/e2280f60-ac77-496a-abfb-51f70ce91e5a" />
+
+
+
+
+
 
 ## Key Highlights
 
